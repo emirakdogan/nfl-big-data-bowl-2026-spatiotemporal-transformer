@@ -4,7 +4,7 @@ Player trajectory prediction for the NFL Big Data Bowl 2026 competition. This pr
 
 ## Project Overview
 
-The model uses a 1-second pre-throw context window at 10 Hz and predicts future cumulative `(dx, dy)` movement for the targeted player. Each play is represented as a sequence of frames, where players and the ball reference are encoded as tokens.
+The model uses a 1-second pre-throw context window and predicts future cumulative `(dx, dy)` movement for the targeted player. Each play is represented as a sequence of frames, where players and the ball reference are encoded as tokens.
 
 Key ideas:
 
