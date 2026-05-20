@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Kaggle/input data and generated outputs
+input/
+data/
+outputs/
+bundle/
+*.pth
+*.pkl
+*.parquet
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
