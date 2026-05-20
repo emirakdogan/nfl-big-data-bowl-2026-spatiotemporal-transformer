@@ -63,31 +63,6 @@ For a full competition-style run, restore the stronger configuration described i
 
 This project is designed for Kaggle's NFL Big Data Bowl 2026 environment. The raw competition data is not included in this repository. To run the notebook, place the competition CSV files in the expected Kaggle input directory or update `DATA_DIR` in the configuration.
 
-## Usage
-
-Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Open the notebook:
-
-```bash
-jupyter notebook spatiotemporal-transformer-edge-aware-attention.ipynb
-```
-
-## Notes
-
-This repository is intended as a portfolio project demonstrating applied deep learning for sports analytics, sequence modeling, feature engineering, and Kaggle competition workflows.
-
 ## Author
 
 Ahmet Emir Akdoğan
